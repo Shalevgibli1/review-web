@@ -1,0 +1,363 @@
+*{
+    margin: auto;
+    padding: 0;
+    flex-wrap: nowrap;
+    
+}
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* nav */
+
+.main-nav{
+    background-image:url('C:/Users/shale/OneDrive/שולחן העבודה/proyects/Proyect1/image/header-img/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    text-align: right;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-right: 11px;
+    direction: rtl;
+    width: auto;
+    
+}
+.nav-list{
+    display: inline;
+}
+.nav-link{
+    padding-right: 25px;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: orange ;
+}
+a:link{
+    color: white;
+}
+
+/* header  */
+
+.main-header{
+    background:url('C:/Users/shale/OneDrive/שולחן העבודה/proyects/Proyect1/image/header-img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 932px;
+}
+.first-header{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+}
+.second-header{
+    padding-top: 15px;
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 30px;
+     color:whitesmoke;
+}
+
+/* about-section */
+.section-about-container{
+    width: 1400px;
+    height: 700px;
+}
+.first-section{
+    color: rgb(58, 108, 244);;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline rgb(58, 108, 244) 5px;
+}
+.about-container{
+    display: inline-flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 80px;
+    padding-top: 35px;
+}
+.my-picture{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    float: left;
+    display: inline-flex;
+    object-fit: cover;
+}
+.section-about{
+    background-color: lightyellow;
+    padding-bottom: 300px;
+}
+.h1-section{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 600px; 
+    color: lightslategray;
+    text-decoration: underline black;
+    padding-bottom: 10px;
+    
+}
+.p1-section{
+    text-align: justify;
+    width: 600px;
+    font-size: 20px;
+    padding: 20px;
+}
+.img-container{
+   padding-left: 350px;
+   padding-top: 100px;
+}
+.click-data{
+    width: 265px;
+    height: 38px;
+    color: #00FF7F;
+    background: -webkit-linear-gradient( left, cyan  , #9f01ea ,cyan );
+    border: double 3px black;
+}
+.button-data{
+    padding-top: 40px;
+    padding-left: 900px;
+}
+
+button:active{
+    color: white;
+}
+
+
+/* section-games */
+.lovegames-section{
+    height: auto;
+    background-color: whitesmoke;
+}
+.h1-games{
+    text-align: center;
+    padding-top: 25px;
+    color:rgb(58, 108, 244) ;
+    text-decoration: 5px rgb(58, 108, 244) underline;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* first-game */
+.first-game-lol{
+  width: 1500px;
+  height: 700px;
+}
+
+.namegame1{
+  color: goldenrod;
+  padding-left: 10px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+  direction: ltr;
+  padding-top: 70px ;
+}
+
+.league-image{
+    width: 300px;
+    height: 400px;
+    float: left;
+    object-fit: cover;
+}
+.league-image-div{
+    padding-left: 120px;
+    padding-top: 180px;
+}
+.league-review{
+    width: 700px;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 25px;
+    float: left;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', ;
+}
+.league-button{
+    width: 265px;
+    height: 38px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient(left, black , green , black);
+    border: double 3px black;
+    font-size: 15px;
+}
+.league-button-site{
+   padding-top: 400px;
+   padding-left: 160px;
+   text-align: center;
+}
+
+/* second-game */
+.second-game-bf5{
+  width: 1400px;
+  height: 700px;
+}
+.name-game2{
+    color: goldenrod;
+    font-size: 25px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    direction: ltr;
+    padding-top: 40px ;
+    padding-left: 10px;
+}
+.bf5-image{
+    padding-left: 110px;
+    padding-top: 120px;
+
+}
+.image-in{
+    width: 300px;
+    height: 400px;
+    float: left;
+    object-fit: cover;
+}
+.bf5-review{
+    width: 700px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-size: 25px;
+    float: left;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', ;
+
+}
+.bf5-button{
+    width: 265px;
+    height: 38px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient(left, black , green , black);
+    border: double 3px black;
+    font-size: 15px;
+}
+.bf5-button-site{
+   padding-top: 400px;
+   padding-left: 680px;
+  
+}
+/* thirteen game fortnite */
+.thirteen-game-fortnite{
+    width: 1400px;
+    height: 700px;
+}
+
+.namegame3{
+    color: goldenrod;
+    font-size: 25px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    direction: ltr;
+    padding-top: 40px ;
+    padding-left: 10px;
+}
+.fortnite-img-div{
+    padding-left: 110px;
+    padding-top: 120px;
+}
+.image-in-fortnite{
+    width: 300px;
+    height: 400px;
+    float: left;
+    object-fit: cover;
+}
+.fornite-review{
+    width: 700px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-size: 25px;
+    float: left;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', ;
+
+}
+.fortnite-button{
+    width: 265px;
+    height: 38px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient(left, black , green , black);
+    border: double 3px black;
+    font-size: 15px;
+}
+.fortnite-button-site{
+    padding-top: 400px;
+    padding-left: 680px;
+
+}
+button:active{
+    color: orange;
+}
+
+
+/* feedback */
+.feedback-article{
+    height: auto;
+    padding-top: 200px;
+    background-color:white;
+    padding-bottom: 300px;
+
+}
+.h3-feedback{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: rgb(58, 108, 244) 5px underline;
+    color: rgb(58, 108, 244);
+}
+.username{
+    padding-top: 60px;
+    text-align: center;
+}
+.input-username{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.email{
+    text-align: center;
+    padding-top: 20px;
+}
+.input-email{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.textarea{
+    text-align: center;
+    padding-top: 20px;
+}
+textarea{
+    width: 300px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.submit{
+    text-align: center;
+    width: 320px;
+    height: 40px;
+    border-radius:20px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient(left, green  , black , green );  
+}
+.button-submit{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.feedback-container{
+    width: 1400px;
+    height: 700px;
+}
